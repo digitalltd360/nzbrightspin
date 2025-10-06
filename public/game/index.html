@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Game</title>
+    <meta name="color-scheme" content="dark light" />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background: #000;
+      }
+      canvas {
+        display: block;
+        margin: 0 auto;
+        image-rendering: optimizeSpeed;
+      }
+      #notSupportedWrap {
+        max-width: 720px;
+        margin: 2rem auto;
+        color: #fff;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu,
+          Cantarell, Noto Sans, Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      if (location.protocol.substr(0, 4) === "file") {
+        alert(
+          "Web exports won't work until you upload them. (When running on the file: protocol, browsers block many features from working for security reasons.)"
+        );
+      }
+    </script>
+    <noscript>
+      <div id="notSupportedWrap">
+        <h2 id="notSupportedTitle">This content requires JavaScript</h2>
+        <p class="notSupportedMessage">
+          JavaScript appears to be disabled. Please enable it to view this
+          content.
+        </p>
+      </div>
+    </noscript>
+    <script src="scripts/supportcheck.js"></script>
+    <script src="scripts/offlineclient.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+    <script src="scripts/sign-in-sw.js" type="module"></script>
+
+    <canvas width="1280" height="720"></canvas>
+    <div class="c3-screen-reader-text" aria-live="polite"></div>
+    <input
+      type="range"
+      max="100"
+      min="0"
+      step="5"
+      title=""
+      style="
+        position: absolute;
+        user-select: none;
+        box-sizing: border-box;
+        display: none;
+      "
+    />
+  </body>
+</html>

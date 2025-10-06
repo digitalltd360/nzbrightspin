@@ -1,39 +1,39 @@
 # Bright Spin
 
-A cutting-edge gaming platform built with Next.js, TypeScript, MUI, and Redux Toolkit.
+منصة ألعاب رقمية متطورة مبنية بـ Next.js و TypeScript و MUI و Redux Toolkit.
 
-## Features
+## المميزات
 
-- 🎮 Premium digital gaming platform
-- 📱 Responsive design with mobile-first approach
-- 🍪 Cookie consent management
-- 🔞 Age verification (18+)
-- 📄 Comprehensive pages: About, Contact Us, Privacy, Terms
-- 🗺️ SEO-optimized with sitemap.xml
-- 🎨 Modern UI with Material-UI components
+- 🎮 منصة ألعاب رقمية متميزة
+- 📱 تصميم متجاوب مع نهج الهاتف المحمول أولاً
+- 🍪 إدارة موافقة ملفات تعريف الارتباط
+- 🔞 التحقق من العمر (18+)
+- 📄 صفحات شاملة: من نحن، اتصل بنا، الخصوصية، الشروط
+- 🗺️ محسن لمحركات البحث مع خريطة الموقع
+- 🎨 واجهة مستخدم حديثة مع مكونات Material-UI
 
-## Tech Stack
+## التقنيات المستخدمة
 
-- **Framework**: Next.js 15 with TypeScript
-- **Styling**: Tailwind CSS + Material-UI
-- **State Management**: Redux Toolkit
-- **Form Handling**: React Hook Form + Zod validation
-- **SEO**: next-seo
-- **Deployment**: Cloudflare Pages
-- **Technologies**: Gaming, Digital Entertainment, Cloud Computing, IoT
+- **الإطار**: Next.js 15 مع TypeScript
+- **التصميم**: Tailwind CSS + Material-UI
+- **إدارة الحالة**: Redux Toolkit
+- **معالجة النماذج**: React Hook Form + Zod validation
+- **تحسين محركات البحث**: next-seo
+- **النشر**: Cloudflare Pages
+- **التقنيات**: الألعاب، الترفيه الرقمي، الحوسبة السحابية، إنترنت الأشياء
 
-## Getting Started
+## البدء
 
-### Development
+### التطوير
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+افتح [http://localhost:3000](http://localhost:3000) في متصفحك.
 
-### Build for Production
+### بناء للإنتاج
 
 ```bash
 npm run build
@@ -67,33 +67,33 @@ src/
     └── game/            # Game iframe component
 ```
 
-## Environment Variables
+## متغيرات البيئة
 
-Create a `.env.local` file:
+إنشاء ملف `.env.local`:
 
 ```env
-NEXT_PUBLIC_BASE_URL=https://brightspin.com
+NEXT_PUBLIC_BASE_URL=https://brightspin.ae
 ```
 
-## Deployment
+## النشر
 
-The project is configured for static export and Cloudflare Pages deployment:
+المشروع مُكوَّن للتصدير الثابت ونشر Cloudflare Pages:
 
-- Static export enabled in `next.config.ts`
-- Wrangler configuration in `wrangler.toml`
-- Build scripts for deployment
+- التصدير الثابت مفعل في `next.config.ts`
+- تكوين Wrangler في `wrangler.toml`
+- سكريبتات البناء للنشر
 
-## Pages
+## الصفحات
 
-- `/` - Home page with gaming platform preview
-- `/games` - Games page with digital entertainment showcase
-- `/services` - Services page with gaming solutions
-- `/contact` - Contact Us form with validation
-- `/privacy` - Privacy policy
-- `/terms` - Terms and conditions
-- `/sitemap.xml` - SEO sitemap
+- `/` - الصفحة الرئيسية مع معاينة منصة الألعاب
+- `/games` - صفحة الألعاب مع عرض الترفيه الرقمي
+- `/services` - صفحة الخدمات مع حلول الألعاب
+- `/contact` - نموذج اتصل بنا مع التحقق
+- `/privacy` - سياسة الخصوصية
+- `/terms` - الشروط والأحكام
+- `/sitemap.xml` - خريطة الموقع لمحركات البحث
 
-## License
+## الترخيص
 
 # Wrum Spinplayground
 
@@ -112,4 +112,5 @@ The project is configured for static export and Cloudflare Pages deployment:
 # subtropiceveningspin
 
 # SubTropicEveningSpin
+
 # nzbrightspin

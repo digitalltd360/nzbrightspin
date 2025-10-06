@@ -1,0 +1,44 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Принудительное использование HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Разрешить прямой доступ к index.php с методом POST
+  RewriteCond %{REQUEST_METHOD} =POST
+  RewriteRule ^index\.php$ - [L]
+
+  # Удаление завершающего слэша
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]{1,5}$
+  RewriteRule ^(.+?)/$ /$1 [L,R=301]
+
+  # Исключить из фоллбэка API-запросы (если есть)
+  RewriteCond %{REQUEST_URI} !^/api/
+
+  # Фоллбэк на index.html для SPA (например, React/Next.js)
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Кеширование статических файлов
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/webp  "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/png   "access plus 1 year"
+  ExpiresByType image/jpeg  "access plus 1 year"
+  ExpiresByType image/gif   "access plus 1 year"
+  ExpiresByType text/css    "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+</IfModule>
+
+# Безопасные заголовки
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options nosniff
+  Header always set X-Frame-Options SAMEORIGIN
+  Header set Referrer-Policy no-referrer-when-downgrade
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
