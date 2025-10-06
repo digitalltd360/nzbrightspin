@@ -181,7 +181,7 @@ const translations = {
 
     // History
     "history.title": "تاريخ الشركة",
-    "history.subtitle": "اكتشف رحلة Win Pokies في عالم التقنية!",
+    "history.subtitle": "اكتشف رحلة Bright Spin في عالم التقنية!",
     "history.timeline": "الجدول الزمني",
     "history.milestones": "أهم المعالم",
     "history.genres": "مجالات الخبرة",
@@ -203,9 +203,9 @@ const translations = {
     "footer.follow_us": "تابعنا",
     "footer.privacy_policy": "سياسة الخصوصية",
     "footer.terms": "شروط الخدمة",
-    "footer.copyright": "© 2024 Win Pokies. جميع الحقوق محفوظة.",
+    "footer.copyright": "© 2024 Bright Spin. جميع الحقوق محفوظة.",
     "footer.description":
-      "Win Pokies هي منصة الحلول التقنية الرائدة في دولة الإمارات، تقدم مجموعة واسعة من التقنيات المتقدمة والحلول الذكية. انضم إلى آلاف العملاء الإماراتيين واستمتع بأفضل تجربة تقنية في دولة الإمارات.",
+      "Bright Spin هي منصة الحلول التقنية الرائدة في دولة الإمارات، تقدم مجموعة واسعة من التقنيات المتقدمة والحلول الذكية. انضم إلى آلاف العملاء الإماراتيين واستمتع بأفضل تجربة تقنية في دولة الإمارات.",
     "footer.copyright_text":
       "جميع الحقوق محفوظة • الحلول التقنية • الذكاء الاصطناعي • البلوك تشين",
     "footer.games": "الحلول",
@@ -240,10 +240,10 @@ const translations = {
     "auth.dont_have_account": "ليس لديك حساب؟",
 
     // Age Gate
-    "age_gate.title": "Win Pokies & التحقق من العمر",
-    "age_gate.subtitle": "Win Pokies - تقنية آمنة للجميع!",
+    "age_gate.title": "Bright Spin & التحقق من العمر",
+    "age_gate.subtitle": "Bright Spin - تقنية آمنة للجميع!",
     "age_gate.description":
-      "Win Pokies هي منصة تقنية آمنة لجميع الأعمار. استفد من الحلول التقنية المتقدمة واستمتع بالتجربة التقنية في بيئة آمنة.",
+      "Bright Spin هي منصة تقنية آمنة لجميع الأعمار. استفد من الحلول التقنية المتقدمة واستمتع بالتجربة التقنية في بيئة آمنة.",
     "age_gate.play_button": "🚀 ابدأ الآن 🚀",
     "age_gate.age_checkbox": "أوافق على شروط الاستخدام والحدود العمرية",
     "age_gate.cookies_checkbox":
@@ -252,9 +252,9 @@ const translations = {
       "أفهم أن الحلول التقنية للاستخدام المهني فقط",
 
     // Cookies
-    "cookies.title": "🍪 Win Pokies & ملفات تعريف الارتباط",
+    "cookies.title": "🍪 Bright Spin & ملفات تعريف الارتباط",
     "cookies.description":
-      "نستخدم ملفات تعريف الارتباط الضرورية للحفاظ على Win Pokies يعمل بسلاسة. لا توجد أدوات تتبع من أطراف ثالثة. اقرأ المزيد عن سياسة الخصوصية الخاصة بنا.",
+      "نستخدم ملفات تعريف الارتباط الضرورية للحفاظ على Bright Spin يعمل بسلاسة. لا توجد أدوات تتبع من أطراف ثالثة. اقرأ المزيد عن سياسة الخصوصية الخاصة بنا.",
     "cookies.accept": "🍪 قبول",
     "cookies.decline": "🚫 رفض",
 
@@ -361,7 +361,7 @@ const translations = {
       "الحلول التقنية الرائدة في دولة الإمارات! استفد من التقنيات المتقدمة وأفضل تجربة تقنية في دولة الإمارات.",
     "seo.keywords":
       "الحلول التقنية, الذكاء الاصطناعي, البلوك تشين, الحوسبة السحابية, التقنيات المتقدمة, الإمارات",
-    "seo.title": "Win Pokies - الحلول التقنية المتقدمة",
+    "seo.title": "Bright Spin - الحلول التقنية المتقدمة",
   },
   en: {
     // Navigation
@@ -531,7 +531,7 @@ const translations = {
 
     // History
     "history.title": "COMPANY HISTORY",
-    "history.subtitle": "Discover Win Pokies journey in the tech world!",
+    "history.subtitle": "Discover Bright Spin journey in the tech world!",
     "history.timeline": "Timeline",
     "history.milestones": "Major Milestones",
     "history.genres": "Expertise Areas",
@@ -553,9 +553,9 @@ const translations = {
     "footer.follow_us": "Follow Us",
     "footer.privacy_policy": "Privacy Policy",
     "footer.terms": "Terms of Service",
-    "footer.copyright": "© 2024 Win Pokies. All rights reserved.",
+    "footer.copyright": "© 2024 Bright Spin. All rights reserved.",
     "footer.description":
-      "Win Pokies is the leading technology platform in UAE, offering a wide range of advanced technologies and smart solutions. Join thousands of UAE clients and enjoy the best tech experience in UAE.",
+      "Bright Spin is the leading technology platform in UAE, offering a wide range of advanced technologies and smart solutions. Join thousands of UAE clients and enjoy the best tech experience in UAE.",
     "footer.copyright_text":
       "All rights reserved • Tech Solutions • AI • Blockchain",
     "footer.games": "Solutions",
@@ -590,10 +590,10 @@ const translations = {
     "auth.dont_have_account": "Don't have an account?",
 
     // Age Gate
-    "age_gate.title": "Win Pokies & Age Verification",
-    "age_gate.subtitle": "Win Pokies - Safe Technology for Everyone!",
+    "age_gate.title": "Bright Spin & Age Verification",
+    "age_gate.subtitle": "Bright Spin - Safe Technology for Everyone!",
     "age_gate.description":
-      "Win Pokies is a safe technology platform for all ages. Experience advanced technologies and enjoy smart solutions in a secure environment.",
+      "Bright Spin is a safe technology platform for all ages. Experience advanced technologies and enjoy smart solutions in a secure environment.",
     "age_gate.play_button": "🚀 GET STARTED 🚀",
     "age_gate.age_checkbox": "I accept the terms of use and age restrictions",
     "age_gate.cookies_checkbox": "I accept cookies and privacy policy",
@@ -601,9 +601,9 @@ const translations = {
       "I understand that tech solutions are for professional use only",
 
     // Cookies
-    "cookies.title": "🍪 Win Pokies & Cookies",
+    "cookies.title": "🍪 Bright Spin & Cookies",
     "cookies.description":
-      "We use essential cookies to keep Win Pokies running smoothly. No third-party trackers. Read more about our Privacy Policy.",
+      "We use essential cookies to keep Bright Spin running smoothly. No third-party trackers. Read more about our Privacy Policy.",
     "cookies.accept": "🍪 Accept",
     "cookies.decline": "🚫 Decline",
 
@@ -715,7 +715,7 @@ const translations = {
       "Leading technology solutions in UAE! Leverage advanced technologies and the best tech experience in UAE.",
     "seo.keywords":
       "tech solutions, artificial intelligence, blockchain, cloud computing, advanced technologies, uae",
-    "seo.title": "Win Pokies - Advanced Technology Platform",
+    "seo.title": "Bright Spin - Advanced Technology Platform",
   },
 };
 

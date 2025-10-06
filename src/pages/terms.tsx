@@ -16,8 +16,8 @@ export default function TermsPage() {
   return (
     <>
       <NextSeo
-        title="Terms & Conditions – Win Pokies"
-        description="Understand the rules and responsibilities for using Win Pokies."
+        title="Terms & Conditions – Bright Spin"
+        description="Understand the rules and responsibilities for using Bright Spin."
       />
       <Stack spacing={4}>
         {/* Заголовок */}
@@ -47,18 +47,18 @@ export default function TermsPage() {
 
         {/* Введение */}
         <Typography sx={{ color: "#1a1a2e" }}>
-          By using Win Pokies, you agree to these terms. Please review them
+          By using Bright Spin, you agree to these terms. Please review them
           carefully to understand your rights and responsibilities.
         </Typography>
 
         {/* Разделы условий */}
-        <TermsSection title="Who can use Win Pokies">
-          The service is available to users of all ages. Win Pokies is a safe
+        <TermsSection title="Who can use Bright Spin">
+          The service is available to users of all ages. Bright Spin is a safe
           technology platform that provides innovative solutions for everyone.
         </TermsSection>
 
         <TermsSection title="About the platform">
-          Win Pokies is a safe technology experience. We offer AI, Blockchain,
+          Bright Spin is a safe technology experience. We offer AI, Blockchain,
           and Cloud solutions for business purposes.
         </TermsSection>
 
@@ -77,7 +77,7 @@ export default function TermsPage() {
         </TermsSection>
 
         <TermsSection title="Accounts">
-          If user accounts are available, Win Pokies reserves the right to
+          If user accounts are available, Bright Spin reserves the right to
           remove or restrict access to users who violate these terms or
           applicable law.
         </TermsSection>
